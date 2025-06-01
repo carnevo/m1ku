@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="media/images/icon.gif" />
+    <link rel="stylesheet" type="text/css" href="//undertalefonts.duodecima.technology/webfonts/stylesheet.css">
+      <title>HEARTBEAT</title>
+        <script>
+            let isOriginal = true;
+            const originalTitle = ">HATE/";
+            const blinkTitle = ">_ _ _ _ /";
+
+           setInterval(() => {
+            document.title = isOriginal ? blinkTitle : originalTitle;
+            isOriginal = !isOriginal;
+            }, 125); // TIME
+        </script>
+
+    <style>
+
+        body {
+        background-color: black;
+        }
+
+        img {
+        image-rendering: pixelated;
+        position:absolute;
+        left:0;
+        right:0;
+        top:0;
+        bottom:0;
+        margin:auto;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <img src="media/images/miku-intro.gif">
+
+</body>
+</html>
